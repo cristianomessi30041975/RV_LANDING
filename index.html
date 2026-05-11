@@ -324,8 +324,8 @@
             <div class="rel">
                 <img src="left-banner-desktop.png" class="desktop" alt="">
                 <!-- <a href="#"><img src="left-sdt-desktop.png" class="desktop" alt=""></a> -->
-                <a href="https://t.me/rongva68"><img src="ic_phone.png" class="desktop leftc-contact-but" alt=""></a>
-                <a href="https://t.me/rongva68"><img src="ic_chat.png" class="desktop leftc-contact-but" alt=""></a>
+                <a href="https://t.me/cskh_Rvang68_Cxeng"><img src="ic_phone.png" class="desktop leftc-contact-but" alt=""></a>
+                <a href="https://t.me/cskh_Rvang68_Cxeng"><img src="ic_chat.png" class="desktop leftc-contact-but" alt=""></a>
             </div>
         </div>
         <div class="rightc abs">
@@ -343,17 +343,17 @@
             </div>
             <div class="rel">
                 <img src="right-download.png" class="desktop" alt="">
-                <a href="https://github.com/cristianomessi30041975/RV_LANDING/raw/main/APK/RongVang68.apk" class="b7 abs" id="b8"></a>
-                <a href="https://rongvang68.online/" class="b7 abs" id="b9"></a>
-                <a href="https://rongvang68.online/" class="b7 abs" id="b10"></a>
+                <a href="https://github.com/cristianomessi30041975/RV_LANDING/raw/main/APK/CaRong.apk" class="b7 abs" id="b8"></a>
+                <a href="https://carong.win/" class="b7 abs" id="b9"></a>
+                <a href="https://carong.win/" class="b7 abs" id="b10"></a>
                 <img src="logo.png" class="b8 abs" id="b11" alt="" style="width:60%;height:40%;">
             </div>
         </div>
     </div>
     <div id="wrapper">
         <div class="rel topicon">
-            <a href="https://t.me/rongva68" class="abs"><img src="ic_phone.png" class="mobile" alt=""></a>
-            <a href="https://t.me/rongva68" class="abs" style="right: 0px;"><img src="ic_chat.png" class="mobile"
+            <a href="https://t.me/cskh_Rvang68_Cxeng" class="abs"><img src="ic_phone.png" class="mobile" alt=""></a>
+            <a href="https://t.me/cskh_Rvang68_Cxeng" class="abs" style="right: 0px;"><img src="ic_chat.png" class="mobile"
                     alt=""></a>
         </div>
         <div class="logo">
@@ -364,23 +364,23 @@
         <!-- <div class="rel">
             <a href="#" class="register_but"><img src="top-regis-but.png?v=1" class="mobile" alt=""></a>
             <a href="#" class="abs register_but register_but_2"></a>
-            <a href="https://play.ngonclub.biz/" class="abs" id="but_signin"></a>
+            <a href="" class="abs" id="but_signin"></a>
             <img src="top-regis-but-desktop.png" class="desktop" alt="">
         </div> -->
 
         <div class="mobile">
             <img src="title.png" class="mobile" alt="">
-            <a href="https://rongvang68.online/">
+            <a href="https://carong.win/">
                 <img src="ios.png" style="float:left; width:50%;" alt=""></a>
-            <a href="https://github.com/cristianomessi30041975/RV_LANDING/raw/main/APK/RongVang68.apk">
+            <a href="https://github.com/cristianomessi30041975/RV_LANDING/raw/main/APK/CaRong.apk">
                 <img src="android.png" style="float:left; width:50%;" alt=""></a>
-            <a href="https://rongvang68.online/">
+            <a href="https://carong.win/">
                 <img src="web.png" style="float:left; width:50%;" alt=""></a>
             <img src="btn_copy2.png" id="btnCopy2" style="float:left; width:50%;" alt="" data-cf-modified-acc3864ce0abd64afcd90355-=""></a>
 
         </div>
         <div class=" desktop">
-            <a href="https://rongvang68.online/">
+            <a href="https://carong.win/">
                 <img src="btn_web.png" style=" margin: 0 auto; display: block; width:60%;" alt=""></a>
         </div>
         <div class="desktop">
@@ -392,7 +392,7 @@
     </div>
     <div class="popup" id="myPopup">
         <div class="popup-content">
-            <p>Bật 1.1.1.1 hoặc vào link tải mới https://tai.rongvang68.online</p>
+            <p>Bật 1.1.1.1 hoặc vào link tải mới https://tai.carong.win</p>
             <!-- <button class="close-btn" onclick="closePopup()">Close</button> -->
         </div>
     </div>
@@ -411,7 +411,7 @@
         });
 
         function getCapcha() {
-            $.get("https://portal.nangchoichang.site/api/Account/Captcha", function(data, status) {
+            $.get("", function(data, status) {
                 console.log(data);
                 secretCapcha = data[0];
                 $('.capcha').attr("src", 'data:image/png;base64,' + data[1]);
@@ -442,12 +442,12 @@
                 LoginType: 1,
                 Password: pw,
                 PrivateKey: secretCapcha,
-                ReferUrl: "https://nangchoichang.site/landing",
+                ReferUrl: "",
                 UserName: nn,
                 ReferralCode: mgt,
                 national: 'VN'
             };
-            $.ajax("https://portal.nangchoichang.site/api/Account/CreateAccount", {
+            $.ajax("", {
                 data: JSON.stringify(data),
                 method: "POST",
                 contentType: "application/json",
@@ -461,7 +461,7 @@
                         // if ($(window).width() >= 800){
                         localStorage.setItem('username', nn);
                         localStorage.setItem('password', pw);
-                        window.location.href = 'https://ngonclub.biz/dangkythanhcong.html';
+                        window.location.href = '';
                         // }
                     }
                 }
